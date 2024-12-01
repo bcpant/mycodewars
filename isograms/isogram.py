@@ -19,3 +19,12 @@ def is_isogram(string):
             return False
     return True    
 
+
+"""
+
+Most popular solution:
+
+def is_isogram(string):
+    return len(string) == len(set(string.lower()))
+
+"""
